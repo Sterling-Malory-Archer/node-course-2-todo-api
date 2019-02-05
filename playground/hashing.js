@@ -16,6 +16,7 @@ bcrypt.compare(password, hashedPassword, (err, res) => {
     console.log(res);
 });
 
+//#region 
 // var data = {
 //     id: 10
 // };
@@ -53,3 +54,4 @@ bcrypt.compare(password, hashedPassword, (err, res) => {
 // } else {
 //     console.log('Data was changed, dont trust');
 // }
+//#endregion
